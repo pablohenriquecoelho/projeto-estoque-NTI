@@ -3,6 +3,6 @@ from django.views.generic import TemplateView
 
 
 class HomeView(TemplateView):
-    template_name = 'templates/main/dj index.html'
+    template_name = 'main/index.html'
 
 
