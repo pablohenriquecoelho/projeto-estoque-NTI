@@ -12,5 +12,7 @@
         <li>><a href="{% url 'home' %}">INICIO</a></li>
         <li>><a href="{% url 'pessoa.index' %}">Pessoas</a></li>
     </hul>
+    {% block content %}
+    {% endblock content %}
 </body>
 </html>

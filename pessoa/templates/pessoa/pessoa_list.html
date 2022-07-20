@@ -1,0 +1,18 @@
+{% extends 'main/base.html' %}
+{% block content %}
+
+<table>
+    <thead>
+        <tr>
+            <tr>Nome</th>
+            <tr>Data De Entrada</th>
+            <tr>Ativa</th>
+        </tr>
+        <tbody>
+            {% for pessoa in object_list %}
+                {{ pessoa }}
+            {% endfor %}
+        <tbody>
+    </thead>
+</table>
+{% endblock content %}
